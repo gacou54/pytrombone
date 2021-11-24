@@ -1,0 +1,16 @@
+*
+
+!.gitignore
+!LICENSE
+!README.md
+
+!pyproject.toml
+
+!trombone/
+!trombone/**
+
+!tests/
+!tests/**
+
+*.pyi
+*.pyc
