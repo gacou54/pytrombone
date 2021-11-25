@@ -14,5 +14,8 @@
 !tests/
 !tests/**
 
+!bin/
+!bin/**
+
 *.pyi
 *.pyc
