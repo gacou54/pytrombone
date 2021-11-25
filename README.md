@@ -68,10 +68,9 @@ for filepaths in filepaths_loader('./data/*.pdf', 100, cache):
     files = [('file', filepath) for filepath in filepaths]
 
     output, error = trombone.run([
-                                     ('tool', 'corpus.DocumentSMOGIndex'),  # Choose the tool you want to use
-                                     ('storage', 'file'),
-                                     # Optional, it allows Trombone to cache pre-processed files (use if you will use the file for many tools)
-                                 ] + files)
+        ('tool', 'corpus.DocumentSMOGIndex'),  # Choose the tool you want to use
+        ('storage', 'file'),  # Optional, it allows Trombone to cache pre-processed files (use if you will use the file for many tools)
+    ] + files)
 
     try:
         # If the serialization failed, it is because Trombone failed to performs the analysis.
