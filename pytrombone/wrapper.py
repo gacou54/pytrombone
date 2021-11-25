@@ -20,7 +20,7 @@ class Trombone:
                 print(f'Trombone ({jar_path}) downloaded.')
 
         if not os.path.exists(jar_path):
-            raise FileNotFoundError(f'trombone.jar not found at {jar_path}')
+            raise FileNotFoundError(f'pytrombone.jar not found at {jar_path}')
 
         self.jar_path = jar_path
 

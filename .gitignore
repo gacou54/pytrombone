@@ -8,8 +8,8 @@
 
 !pyproject.toml
 
-!trombone/
-!trombone/**
+!pytrombone/
+!pytrombone/**
 
 !tests/
 !tests/**

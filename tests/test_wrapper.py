@@ -2,7 +2,7 @@ import os
 
 import pytest
 
-from trombone import Trombone
+from pytrombone import Trombone
 
 TROMBONE_PATH = './bin/trombone-5.2.1-jar-with-dependencies.jar'
 

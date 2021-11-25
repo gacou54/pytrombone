@@ -1,7 +1,7 @@
 import pytest
 
-from trombone.cache import Cache
-from trombone.util import filepaths_loader
+from pytrombone.cache import Cache
+from pytrombone.util import filepaths_loader
 
 PDFS_PATH_PATTERN = './tests/data/pdfs/*.pdf'
 EXPECTED_FILE_PATHS = [
