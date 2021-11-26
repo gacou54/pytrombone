@@ -1,11 +1,10 @@
 # pytrombone
-Wrapper for the Trombone project
+Python wrapper for the Trombone project
 
 
 https://github.com/voyanttools/trombone
 
 ## Installation
-Here an exemple 
 ```
 $ pip install pytrombone
 ```
@@ -54,10 +53,6 @@ output = trombone.serialize_output(output)
 ```python
 # We first need to setup the cache file (it will allow you to re-run
 # your code in case of a problem without having to restart from the beginning)
-import os.path
-
-import json
-
 cache = Cache('./cache.db')
 
 # Then, load the filepaths in batch. pytrombone has a function to do that.
