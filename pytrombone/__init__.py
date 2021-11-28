@@ -3,7 +3,7 @@ from .util import filepaths_loader
 from .wrapper import Trombone
 
 __all__ = [
-    'cache',
+    'Cache',
     'filepaths_loader',
     'Trombone',
 ]
