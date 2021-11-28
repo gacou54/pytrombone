@@ -4,6 +4,8 @@ version = "0.1.1"
 description = "Wrapper for the Trombone project"
 authors = ["Gabriel Couture <gacou54@ulaval.ca>"]
 license = "BSD-3"
+readme = 'README.md'
+keywords = ['text']
 
 [tool.poetry.dependencies]
 python = "^3.7"
