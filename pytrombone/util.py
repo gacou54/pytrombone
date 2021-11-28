@@ -30,7 +30,7 @@ def filepaths_loader(path: str, batch_size: int, cache: Cache) -> Generator[List
     """
     file_paths = glob.glob(path)
 
-    batch_filepaths, batch_filenames = [], []
+    batch_filepaths = []
     counter = 0
 
     for filepath in file_paths:
