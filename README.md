@@ -11,7 +11,7 @@ $ pip install pytrombone
 
 ## Usage
 ### Examples
-Let takes a situation where we have a bunch of pdfs in a directory named './data/',
+Consider a situation where we have a bunch of pdfs in a directory named './data/',
 and we want to calculate the SMOG index on those PDFs.
 
 #### Making sure that Trombone works
@@ -27,7 +27,7 @@ version = trombone.get_version()
 print(version)
 ```
 
-#### Calculates the SMOG index of 2 files
+#### Calculating the SMOG index of 2 files
 ```python
 # To run Trombone on a single file use the run method.
 # Note that Trombone parameters are given in the form of a list of tuple of 2 elements.
@@ -48,7 +48,7 @@ output = trombone.serialize_output(output)
 # output is now your results in the form of a dictionary
 ```
 
-#### Calculates the SMOG index in batches
+#### Calculating the SMOG index in batches
 
 ```python
 # We first need to setup the cache file (it will allow you to re-run

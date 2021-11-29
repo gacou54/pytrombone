@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pytrombone"
-version = "0.1.1"
+version = "0.1.2"
 description = "Wrapper for the Trombone project"
 authors = ["Gabriel Couture <gacou54@ulaval.ca>"]
 license = "BSD-3"
