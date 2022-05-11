@@ -14,7 +14,7 @@ class Trombone:
             if not os.path.exists(jar_path):
                 print(f'Downloading Trombone ({jar_path}). This may take some minutes ...')
                 download_file(
-                    url='https://github.com/ulaval-rs/pytrombone/raw/main/bin/trombone-5.2.1-jar-with-dependencies.jar',
+                    url='https://github.com/ulaval-rs/pytrombone/releases/download/v0.1.3/trombone-5.2.1-with-dependencies.jar',
                     new_file_name=jar_path
                 )
                 print(f'Trombone ({jar_path}) downloaded.')
